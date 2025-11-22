@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONNX Runtime Web - Tes Pemuatan Dua Model</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@latest/dist/ort.min.js"></script>
+
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f9; color: #333; padding: 20px; }
+        h1 { color: #444; }
+        p { line-height: 1.6; }
+        .console-box { 
+            background-color: #2b2b2b; 
+            color: #f1f1f1; 
+            padding: 15px; 
+            border-radius: 8px; 
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+            margin-top: 20px;
+        }
+        .success { color: #73d166; font-weight: bold; }
+        .error { color: #f47067; font-weight: bold; }
+        .info { color: #61afef; }
+    </style>
+</head>
+<body>
+    <h1>Tes Pemuatan Dua Model ONNX & Simulasi Logika</h1>
+    <p>Buka console di Developer Tools (F12) untuk melihat log detail. Ringkasan hasil akan ditampilkan di bawah.</p>
+    <div id="result-box" class="console-box">Memulai tes...</div>
+
+    <script>
+        // Ambil elemen untuk menampilkan hasil
+        const resultBox = document.getElementById('result-box');
+
+        // LANGKAH 1: Definisikan path untuk KEDUA model Anda.
+        // Pastikan file-file ini berada di folder yang sama dengan file HTML ini.
+        const trashDetectionModelPath = 'model_adasampah.onnx';
+        const trashClassificationModelPath = 'model_organik_anorganik.onnx';
+
+        // Variabel untuk menampung sesi inferensi yang sudah dimuat
+        let trashDetectionSession;
+        let trashClassificationSession;
+
+        // Atur path ke file WASM dari CDN
+        ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@latest/dist/";
+
+        // Fungsi utama untuk menjalankan seluruh proses
+        async function main() {
+            try {
+                logToPage("Memulai pemuatan model...", "info");
+                
+                // LANGKAH 2: Muat kedua model secara paralel untuk efisiensi.
+                // Promise.all akan menunggu keduanya selesai dimuat.
+                [trashDetectionSession, trashClassificationSession] = await Promise.all([
+                    ort.InferenceSession.create(trashDetectionModelPath, { executionProviders: ['wasm'] }),
+                    ort.InferenceSession.create(trashClassificationModelPath, { executionProviders: ['wasm'] })
+                ]);
+                
+                logToPage("--- HASIL PEMUATAN ---", "success");
+                logToPage("SUKSES: Kedua model berhasil dimuat!", "success");
+                logToPage(`Model 1 Input: ${trashDetectionSession.inputNames.join(', ')}`);
+                logToPage(`Model 2 Input: ${trashClassificationSession.inputNames.join(', ')}`);
+                logToPage("-----------------------");
+
+                // LANGKAH 3: Jalankan simulasi alur logika inferensi
+                simulateInferenceFlow();
+
+            } catch (error) {
+                logToPage("--- HASIL ---", "error");
+                logToPage("TES GAGAL: Terjadi error saat memuat atau menjalankan model.", "error");
+                logToPage(`Detail Error: ${error.message}`);
+                console.error("Detail Error Lengkap:", error);
+            }
+        }
+
+        // Fungsi untuk menyimulasikan alur kerja yang Anda inginkan
+        async function simulateInferenceFlow() {
+            logToPage("\nMemulai simulasi alur inferensi...", "info");
+
+            // TODO: Ganti bagian ini dengan kode pra-pemrosesan gambar Anda yang sebenarnya.
+            // Anda perlu mengubah gambar dari pengguna menjadi sebuah tensor.
+            // const imageTensor = await preprocessImage(userImage);
+
+            // --- Simulasi 1: Deteksi Sampah ---
+            logToPage("1. Menjalankan model deteksi 'ada sampah / tidak ada sampah'...");
+            
+            // TODO: Jalankan inferensi sungguhan dengan session.run()
+            // const detectionResults = await trashDetectionSession.run({ [trashDetectionSession.inputNames[0]]: imageTensor });
+            // const detectionOutput = getResultFromTensor(detectionResults); // Fungsi helper untuk mengekstrak hasil
+            
+            // Untuk demo, kita akan menggunakan hasil acak
+            const possibleDetections = ['ada sampah', 'tidak ada sampah'];
+            const detectionOutput = possibleDetections[Math.floor(Math.random() * possibleDetections.length)];
+            logToPage(`   > Hasil Deteksi: ${detectionOutput}`);
+            
+            // --- Simulasi 2: Klasifikasi Jenis Sampah (jika perlu) ---
+            if (detectionOutput === 'ada sampah') {
+                logToPage("2. Sampah terdeteksi! Menjalankan model klasifikasi 'organik / anorganik'...");
+                
+                // TODO: Jalankan inferensi kedua menggunakan tensor gambar yang sama
+                // const classificationResults = await trashClassificationSession.run({ [trashClassificationSession.inputNames[0]]: imageTensor });
+                // const classificationOutput = getResultFromTensor(classificationResults);
+
+                // Hasil simulasi untuk klasifikasi
+                const possibleClassifications = ['organik', 'anorganik'];
+                const classificationOutput = possibleClassifications[Math.floor(Math.random() * possibleClassifications.length)];
+                logToPage(`   > Hasil Klasifikasi: ${classificationOutput}`, "success");
+
+            } else {
+                logToPage("2. Tidak ada sampah terdeteksi. Proses berhenti.", "success");
+            }
+             logToPage("\nSimulasi Selesai.", "info");
+        }
+
+        // Fungsi helper untuk menampilkan log di halaman
+        function logToPage(message, type = '') {
+            const line = document.createElement('div');
+            if (type) line.classList.add(type);
+            line.textContent = message;
+            resultBox.appendChild(line);
+            console.log(message);
+        }
+
+        // Jalankan fungsi utama
+        main();
+    </script>
+</body>
+</html>

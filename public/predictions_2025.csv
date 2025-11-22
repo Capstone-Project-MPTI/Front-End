@@ -1,0 +1,307 @@
+tahun,nama_provinsi,jenis_sampah,persentase
+2025,Aceh,Kaca,2.3206
+2025,Aceh,Kain,2.3206
+2025,Aceh,Karet/Kulit,2.3149
+2025,Aceh,Kayu/Ranting,15.3437
+2025,Aceh,Kertas/Karton,11.6691
+2025,Aceh,Lainnya,6.3474
+2025,Aceh,Logam,3.3032
+2025,Aceh,Plastik,15.9302
+2025,Aceh,Sisa Makanan,33.7154
+2025,Bali,Kaca,2.3206
+2025,Bali,Kain,2.3206
+2025,Bali,Karet/Kulit,2.3149
+2025,Bali,Kayu/Ranting,33.2866
+2025,Bali,Kertas/Karton,10.1767
+2025,Bali,Lainnya,6.3474
+2025,Bali,Logam,3.3032
+2025,Bali,Plastik,15.9302
+2025,Bali,Sisa Makanan,22.9396
+2025,Banten,Kaca,2.3206
+2025,Banten,Kain,2.3206
+2025,Banten,Karet/Kulit,2.3149
+2025,Banten,Kayu/Ranting,15.3437
+2025,Banten,Kertas/Karton,11.6691
+2025,Banten,Lainnya,6.3474
+2025,Banten,Logam,3.3032
+2025,Banten,Plastik,15.9302
+2025,Banten,Sisa Makanan,33.7154
+2025,Bengkulu,Kaca,2.3081
+2025,Bengkulu,Kain,2.3081
+2025,Bengkulu,Karet/Kulit,2.3023
+2025,Bengkulu,Kayu/Ranting,18.7743
+2025,Bengkulu,Kertas/Karton,11.5845
+2025,Bengkulu,Lainnya,6.3474
+2025,Bengkulu,Logam,3.3032
+2025,Bengkulu,Plastik,13.6100
+2025,Bengkulu,Sisa Makanan,33.7154
+2025,DKI Jakarta,Kaca,2.3206
+2025,DKI Jakarta,Kain,2.3206
+2025,DKI Jakarta,Karet/Kulit,2.3149
+2025,DKI Jakarta,Kayu/Ranting,14.7546
+2025,DKI Jakarta,Kertas/Karton,10.6409
+2025,DKI Jakarta,Lainnya,12.4624
+2025,DKI Jakarta,Logam,3.2502
+2025,DKI Jakarta,Plastik,14.6211
+2025,DKI Jakarta,Sisa Makanan,31.5253
+2025,Daerah Istimewa Yogyakarta,Kaca,2.2364
+2025,Daerah Istimewa Yogyakarta,Kain,2.2364
+2025,Daerah Istimewa Yogyakarta,Karet/Kulit,2.2307
+2025,Daerah Istimewa Yogyakarta,Kayu/Ranting,15.0544
+2025,Daerah Istimewa Yogyakarta,Kertas/Karton,11.6691
+2025,Daerah Istimewa Yogyakarta,Lainnya,6.3167
+2025,Daerah Istimewa Yogyakarta,Logam,3.3032
+2025,Daerah Istimewa Yogyakarta,Plastik,16.1575
+2025,Daerah Istimewa Yogyakarta,Sisa Makanan,33.7364
+2025,Gorontalo,Kaca,2.4258
+2025,Gorontalo,Kain,2.4258
+2025,Gorontalo,Karet/Kulit,2.4201
+2025,Gorontalo,Kayu/Ranting,15.3437
+2025,Gorontalo,Kertas/Karton,11.8233
+2025,Gorontalo,Lainnya,6.3848
+2025,Gorontalo,Logam,4.2639
+2025,Gorontalo,Plastik,17.6702
+2025,Gorontalo,Sisa Makanan,30.0159
+2025,Jambi,Kaca,2.3206
+2025,Jambi,Kain,2.3206
+2025,Jambi,Karet/Kulit,2.3149
+2025,Jambi,Kayu/Ranting,15.3437
+2025,Jambi,Kertas/Karton,11.6691
+2025,Jambi,Lainnya,7.4887
+2025,Jambi,Logam,3.5091
+2025,Jambi,Plastik,15.8818
+2025,Jambi,Sisa Makanan,33.7154
+2025,Jawa Barat,Kaca,2.3206
+2025,Jawa Barat,Kain,2.3206
+2025,Jawa Barat,Karet/Kulit,2.3149
+2025,Jawa Barat,Kayu/Ranting,15.3437
+2025,Jawa Barat,Kertas/Karton,11.6691
+2025,Jawa Barat,Lainnya,7.0627
+2025,Jawa Barat,Logam,3.3032
+2025,Jawa Barat,Plastik,15.9302
+2025,Jawa Barat,Sisa Makanan,33.7627
+2025,Jawa Tengah,Kaca,2.3206
+2025,Jawa Tengah,Kain,2.3206
+2025,Jawa Tengah,Karet/Kulit,2.3149
+2025,Jawa Tengah,Kayu/Ranting,15.3437
+2025,Jawa Tengah,Kertas/Karton,11.6691
+2025,Jawa Tengah,Lainnya,6.3474
+2025,Jawa Tengah,Logam,3.3032
+2025,Jawa Tengah,Plastik,15.9302
+2025,Jawa Tengah,Sisa Makanan,33.7154
+2025,Jawa Timur,Kaca,2.3206
+2025,Jawa Timur,Kain,2.3206
+2025,Jawa Timur,Karet/Kulit,2.3149
+2025,Jawa Timur,Kayu/Ranting,15.3437
+2025,Jawa Timur,Kertas/Karton,11.6691
+2025,Jawa Timur,Lainnya,6.3912
+2025,Jawa Timur,Logam,3.3032
+2025,Jawa Timur,Plastik,15.9302
+2025,Jawa Timur,Sisa Makanan,33.7378
+2025,Kalimantan Barat,Kaca,2.3206
+2025,Kalimantan Barat,Kain,2.3206
+2025,Kalimantan Barat,Karet/Kulit,2.3149
+2025,Kalimantan Barat,Kayu/Ranting,14.5911
+2025,Kalimantan Barat,Kertas/Karton,11.6691
+2025,Kalimantan Barat,Lainnya,7.2047
+2025,Kalimantan Barat,Logam,3.3032
+2025,Kalimantan Barat,Plastik,16.4136
+2025,Kalimantan Barat,Sisa Makanan,33.7154
+2025,Kalimantan Selatan,Kaca,2.3206
+2025,Kalimantan Selatan,Kain,2.3206
+2025,Kalimantan Selatan,Karet/Kulit,2.3149
+2025,Kalimantan Selatan,Kayu/Ranting,14.8579
+2025,Kalimantan Selatan,Kertas/Karton,11.6691
+2025,Kalimantan Selatan,Lainnya,6.3474
+2025,Kalimantan Selatan,Logam,3.3032
+2025,Kalimantan Selatan,Plastik,15.9602
+2025,Kalimantan Selatan,Sisa Makanan,33.7364
+2025,Kalimantan Tengah,Kaca,2.3206
+2025,Kalimantan Tengah,Kain,2.3206
+2025,Kalimantan Tengah,Karet/Kulit,2.3149
+2025,Kalimantan Tengah,Kayu/Ranting,15.3437
+2025,Kalimantan Tengah,Kertas/Karton,11.6691
+2025,Kalimantan Tengah,Lainnya,6.3474
+2025,Kalimantan Tengah,Logam,3.3032
+2025,Kalimantan Tengah,Plastik,16.6585
+2025,Kalimantan Tengah,Sisa Makanan,33.7154
+2025,Kalimantan Timur,Kaca,2.3206
+2025,Kalimantan Timur,Kain,2.3206
+2025,Kalimantan Timur,Karet/Kulit,2.3149
+2025,Kalimantan Timur,Kayu/Ranting,13.2449
+2025,Kalimantan Timur,Kertas/Karton,12.0649
+2025,Kalimantan Timur,Lainnya,6.3154
+2025,Kalimantan Timur,Logam,3.2888
+2025,Kalimantan Timur,Plastik,15.9302
+2025,Kalimantan Timur,Sisa Makanan,33.7791
+2025,Kalimantan Utara,Kaca,2.0916
+2025,Kalimantan Utara,Kain,2.0916
+2025,Kalimantan Utara,Karet/Kulit,2.0858
+2025,Kalimantan Utara,Kayu/Ranting,14.7625
+2025,Kalimantan Utara,Kertas/Karton,16.9115
+2025,Kalimantan Utara,Lainnya,6.2422
+2025,Kalimantan Utara,Logam,3.2739
+2025,Kalimantan Utara,Plastik,16.0629
+2025,Kalimantan Utara,Sisa Makanan,33.7154
+2025,Kepulauan Bangka Belitung,Kaca,2.3206
+2025,Kepulauan Bangka Belitung,Kain,2.3206
+2025,Kepulauan Bangka Belitung,Karet/Kulit,2.3149
+2025,Kepulauan Bangka Belitung,Kayu/Ranting,18.0667
+2025,Kepulauan Bangka Belitung,Kertas/Karton,11.5035
+2025,Kepulauan Bangka Belitung,Lainnya,6.3474
+2025,Kepulauan Bangka Belitung,Logam,3.3032
+2025,Kepulauan Bangka Belitung,Plastik,15.9302
+2025,Kepulauan Bangka Belitung,Sisa Makanan,33.4834
+2025,Kepulauan Riau,Kaca,2.3206
+2025,Kepulauan Riau,Kain,2.3206
+2025,Kepulauan Riau,Karet/Kulit,2.3149
+2025,Kepulauan Riau,Kayu/Ranting,15.3437
+2025,Kepulauan Riau,Kertas/Karton,15.1713
+2025,Kepulauan Riau,Lainnya,6.1776
+2025,Kepulauan Riau,Logam,3.3032
+2025,Kepulauan Riau,Plastik,15.9865
+2025,Kepulauan Riau,Sisa Makanan,33.7154
+2025,Lampung,Kaca,2.3206
+2025,Lampung,Kain,2.3206
+2025,Lampung,Karet/Kulit,2.3149
+2025,Lampung,Kayu/Ranting,15.3437
+2025,Lampung,Kertas/Karton,9.9063
+2025,Lampung,Lainnya,6.3474
+2025,Lampung,Logam,3.3032
+2025,Lampung,Plastik,15.9302
+2025,Lampung,Sisa Makanan,32.5265
+2025,Maluku,Kaca,4.3927
+2025,Maluku,Kain,4.4773
+2025,Maluku,Karet/Kulit,5.0552
+2025,Maluku,Kayu/Ranting,16.4322
+2025,Maluku,Kertas/Karton,11.7729
+2025,Maluku,Lainnya,6.3474
+2025,Maluku,Logam,3.7168
+2025,Maluku,Plastik,16.8042
+2025,Maluku,Sisa Makanan,31.4646
+2025,Maluku Utara,Kaca,2.3206
+2025,Maluku Utara,Kain,2.3206
+2025,Maluku Utara,Karet/Kulit,2.3149
+2025,Maluku Utara,Kayu/Ranting,15.7889
+2025,Maluku Utara,Kertas/Karton,11.6691
+2025,Maluku Utara,Lainnya,6.3474
+2025,Maluku Utara,Logam,3.3964
+2025,Maluku Utara,Plastik,15.5095
+2025,Maluku Utara,Sisa Makanan,33.6443
+2025,Nusa Tenggara Barat,Kaca,2.3206
+2025,Nusa Tenggara Barat,Kain,2.3206
+2025,Nusa Tenggara Barat,Karet/Kulit,2.3149
+2025,Nusa Tenggara Barat,Kayu/Ranting,16.8361
+2025,Nusa Tenggara Barat,Kertas/Karton,8.7588
+2025,Nusa Tenggara Barat,Lainnya,6.2707
+2025,Nusa Tenggara Barat,Logam,3.3298
+2025,Nusa Tenggara Barat,Plastik,15.9302
+2025,Nusa Tenggara Barat,Sisa Makanan,33.7477
+2025,Nusa Tenggara Timur,Kaca,2.3206
+2025,Nusa Tenggara Timur,Kain,2.3206
+2025,Nusa Tenggara Timur,Karet/Kulit,2.3149
+2025,Nusa Tenggara Timur,Kayu/Ranting,15.8950
+2025,Nusa Tenggara Timur,Kertas/Karton,11.7014
+2025,Nusa Tenggara Timur,Lainnya,6.3474
+2025,Nusa Tenggara Timur,Logam,3.3032
+2025,Nusa Tenggara Timur,Plastik,15.9302
+2025,Nusa Tenggara Timur,Sisa Makanan,29.6893
+2025,Papua,Kaca,2.7524
+2025,Papua,Kain,2.7524
+2025,Papua,Karet/Kulit,2.7642
+2025,Papua,Kayu/Ranting,15.6053
+2025,Papua,Kertas/Karton,12.4013
+2025,Papua,Lainnya,6.2957
+2025,Papua,Logam,7.7937
+2025,Papua,Plastik,15.9302
+2025,Papua,Sisa Makanan,29.3839
+2025,Papua Barat,Kaca,4.7014
+2025,Papua Barat,Kain,4.7014
+2025,Papua Barat,Karet/Kulit,4.6768
+2025,Papua Barat,Kayu/Ranting,15.3437
+2025,Papua Barat,Kertas/Karton,11.6691
+2025,Papua Barat,Lainnya,18.7226
+2025,Papua Barat,Logam,5.7154
+2025,Papua Barat,Plastik,21.5063
+2025,Papua Barat,Sisa Makanan,31.6677
+2025,Riau,Kaca,2.3376
+2025,Riau,Kain,2.3376
+2025,Riau,Karet/Kulit,2.3318
+2025,Riau,Kayu/Ranting,15.2971
+2025,Riau,Kertas/Karton,11.7524
+2025,Riau,Lainnya,8.0774
+2025,Riau,Logam,3.3237
+2025,Riau,Plastik,17.6488
+2025,Riau,Sisa Makanan,29.2003
+2025,Sulawesi Barat,Kaca,2.3022
+2025,Sulawesi Barat,Kain,2.3022
+2025,Sulawesi Barat,Karet/Kulit,2.2965
+2025,Sulawesi Barat,Kayu/Ranting,15.3437
+2025,Sulawesi Barat,Kertas/Karton,11.9287
+2025,Sulawesi Barat,Lainnya,6.3474
+2025,Sulawesi Barat,Logam,3.5105
+2025,Sulawesi Barat,Plastik,15.9302
+2025,Sulawesi Barat,Sisa Makanan,33.7154
+2025,Sulawesi Selatan,Kaca,2.3206
+2025,Sulawesi Selatan,Kain,2.3206
+2025,Sulawesi Selatan,Karet/Kulit,2.3149
+2025,Sulawesi Selatan,Kayu/Ranting,15.3437
+2025,Sulawesi Selatan,Kertas/Karton,11.6691
+2025,Sulawesi Selatan,Lainnya,6.3474
+2025,Sulawesi Selatan,Logam,3.3032
+2025,Sulawesi Selatan,Plastik,15.3813
+2025,Sulawesi Selatan,Sisa Makanan,33.7154
+2025,Sulawesi Tengah,Kaca,2.3206
+2025,Sulawesi Tengah,Kain,2.3206
+2025,Sulawesi Tengah,Karet/Kulit,2.3149
+2025,Sulawesi Tengah,Kayu/Ranting,15.1068
+2025,Sulawesi Tengah,Kertas/Karton,13.9510
+2025,Sulawesi Tengah,Lainnya,6.3474
+2025,Sulawesi Tengah,Logam,3.4304
+2025,Sulawesi Tengah,Plastik,13.9775
+2025,Sulawesi Tengah,Sisa Makanan,31.9239
+2025,Sulawesi Tenggara,Kaca,2.3206
+2025,Sulawesi Tenggara,Kain,2.3206
+2025,Sulawesi Tenggara,Karet/Kulit,2.3149
+2025,Sulawesi Tenggara,Kayu/Ranting,15.6027
+2025,Sulawesi Tenggara,Kertas/Karton,11.5258
+2025,Sulawesi Tenggara,Lainnya,7.6555
+2025,Sulawesi Tenggara,Logam,3.3032
+2025,Sulawesi Tenggara,Plastik,15.8915
+2025,Sulawesi Tenggara,Sisa Makanan,33.7154
+2025,Sulawesi Utara,Kaca,2.3206
+2025,Sulawesi Utara,Kain,2.3206
+2025,Sulawesi Utara,Karet/Kulit,2.3149
+2025,Sulawesi Utara,Kayu/Ranting,15.2511
+2025,Sulawesi Utara,Kertas/Karton,11.6691
+2025,Sulawesi Utara,Lainnya,7.0792
+2025,Sulawesi Utara,Logam,3.3032
+2025,Sulawesi Utara,Plastik,15.9302
+2025,Sulawesi Utara,Sisa Makanan,33.7154
+2025,Sumatera Barat,Kaca,2.3206
+2025,Sumatera Barat,Kain,2.3206
+2025,Sumatera Barat,Karet/Kulit,2.3149
+2025,Sumatera Barat,Kayu/Ranting,15.3437
+2025,Sumatera Barat,Kertas/Karton,12.2158
+2025,Sumatera Barat,Lainnya,6.3474
+2025,Sumatera Barat,Logam,3.5053
+2025,Sumatera Barat,Plastik,15.9302
+2025,Sumatera Barat,Sisa Makanan,33.7374
+2025,Sumatera Selatan,Kaca,2.3206
+2025,Sumatera Selatan,Kain,2.3206
+2025,Sumatera Selatan,Karet/Kulit,2.3149
+2025,Sumatera Selatan,Kayu/Ranting,15.1088
+2025,Sumatera Selatan,Kertas/Karton,11.6691
+2025,Sumatera Selatan,Lainnya,6.3474
+2025,Sumatera Selatan,Logam,3.3032
+2025,Sumatera Selatan,Plastik,15.9302
+2025,Sumatera Selatan,Sisa Makanan,33.7335
+2025,Sumatera Utara,Kaca,2.3206
+2025,Sumatera Utara,Kain,2.3206
+2025,Sumatera Utara,Karet/Kulit,2.3149
+2025,Sumatera Utara,Kayu/Ranting,15.3437
+2025,Sumatera Utara,Kertas/Karton,11.8350
+2025,Sumatera Utara,Lainnya,6.4287
+2025,Sumatera Utara,Logam,3.3032
+2025,Sumatera Utara,Plastik,15.9302
+2025,Sumatera Utara,Sisa Makanan,33.0532

@@ -1,0 +1,301 @@
+/* Base Styles */
+.scan-container {
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .scan-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .scan-title {
+    color: #2e8b57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+  }
+  
+  .scan-icon {
+    font-size: 1.8rem;
+  }
+  
+  .scan-subtitle {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  /* Camera Preview Area */
+  .camera-preview {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .camera-preview.scanning {
+    background-color: #f0f4f8;
+  }
+  
+  .camera-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .guide-box {
+    width: 70%;
+    height: 70%;
+    border: 3px dashed #2e8b57;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scan-guide p {
+    margin-top: 15px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .scanning-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .spinner {
+    font-size: 2.5rem;
+    color: #2e8b57;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Scan Button */
+  .scan-button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .scan-button:hover {
+    background-color: #3aa76d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(46, 139, 87, 0.3);
+  }
+  
+  .scan-button.scanning {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Scan Results */
+  .scan-result {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .result-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .result-header.success {
+    color: #2e8b57;
+  }
+  
+  .result-header.error {
+    color: #dc3545;
+  }
+  
+  .result-icon {
+    font-size: 1.8rem;
+  }
+  
+  .result-details {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .result-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .result-label {
+    font-weight: 600;
+    width: 120px;
+    color: #495057;
+  }
+  
+  .result-value {
+    color: #212529;
+    flex: 1;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 5px;
+  }
+  
+  /* Action Buttons */
+  .result-actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .action-button.primary {
+    background-color: #2e8b57;
+    color: white;
+  }
+  
+  .action-button.primary:hover {
+    background-color: #3aa76d;
+  }
+  
+  .action-button.retry {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #dee2e6;
+  }
+  
+  .action-button.retry:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Tips Section */
+  .scan-tips {
+    max-width: 800px;
+    margin: 30px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .scan-tips h3 {
+    color: #2e8b57;
+    margin-bottom: 15px;
+  }
+  
+  .scan-tips ul {
+    padding-left: 20px;
+  }
+  
+  .scan-tips li {
+    margin-bottom: 8px;
+    color: #495057;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .scan-title {
+      font-size: 1.5rem;
+    }
+    
+    .scan-subtitle {
+      font-size: 1rem;
+    }
+    
+    .camera-preview {
+      padding: 15px;
+    }
+    
+    .camera-placeholder {
+      height: 250px;
+    }
+    
+    .guide-box {
+      width: 80%;
+      height: 80%;
+    }
+    
+    .result-row {
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .result-label {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .scan-container {
+      padding: 15px 10px;
+    }
+    
+    .scan-button {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .result-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .action-button {
+      width: 100%;
+    }
+  }
