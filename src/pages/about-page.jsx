@@ -13,7 +13,7 @@ import dev4 from "../assets/developt/AMEL.jpg";
 import dev5 from "../assets/developt/wawa.jpeg";
 import dev6 from "../assets/developt/ayumi.jpg";
 import dev7 from "../assets/developt/aulia.jpg";
-import dev8 from "../assets/developt/DLHLOGO.png"; // Path untuk anggota baru (ganti jika berbeda)
+import dev8 from "../assets/developt/logodkh.png"; // Path untuk anggota baru (ganti jika berbeda)
 
 const teamMembers = [
   { name: "Dinas Lingkungan Hidup Kota Medan", role: "Mitra Capstone Project", university: "", image: dev8 }, // Anggota baru

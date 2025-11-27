@@ -1,0 +1,25 @@
+{
+    "kategori_map": {
+        "0": "Anorganik",
+        "1": "Organik"
+    },
+    "jenis_map": {
+        "0": "Cangkang Telur",
+        "1": "Elektronik",
+        "2": "Kaca",
+        "3": "Kain",
+        "4": "Kardus",
+        "5": "Karet",
+        "6": "Kayu",
+        "7": "Kertas",
+        "8": "Kotoran Hewan",
+        "9": "Logam",
+        "10": "Plastik",
+        "11": "Sepatu",
+        "12": "Sisa Buah",
+        "13": "Sisa Teh Kopi",
+        "14": "Sisa makanan",
+        "15": "Styrofoam",
+        "16": "Tumbuhan"
+    }
+}

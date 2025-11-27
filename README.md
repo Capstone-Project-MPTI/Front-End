@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🗑️ WasteSnap
 
 **WasteSnap** adalah aplikasi web berbasis React yang membantu pengguna dalam memahami dan mengelola limbah melalui edukasi, kolaborasi, dan prediksi data. Aplikasi ini dikembangkan oleh tim pengembang yang terdiri dari beberapa kontributor, dan menggunakan Vite sebagai build tool.
@@ -68,3 +69,6 @@ Tim pengembang:
 ## 📄 Lisensi
 
 Proyek ini dilindungi hak cipta. Untuk penggunaan dan kontribusi, silakan hubungi pengembang utama.
+=======
+# Front-End
+>>>>>>> 1670ab70cbfa2bbb59a9c007c474ae82ad799ca0
