@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const LoginForm = ({ onSubmit, isLoading, error }) => {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -58,7 +59,7 @@ const LoginForm = ({ onSubmit, isLoading, error }) => {
       </div>
 
       <p className="auth-footer">
-        Belum punya akun? <a href="/register">Daftar sekarang</a>
+        Belum punya akun? <Link to="/register">Daftar sekarang</Link>
       </p>
     </form>
   );
