@@ -9,7 +9,7 @@ import { useAuth } from "../context/AuthContext";
 import { Link } from "react-router-dom";
 import { Line } from "react-chartjs-2";
 import Papa from "papaparse";
-import "../styles/beranda.css";
+import "../styles/Beranda.css";
 import image from "../assets/image/daur-ulang.png";
 import {
   Chart as ChartJS,
