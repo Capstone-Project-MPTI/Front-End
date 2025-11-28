@@ -8,7 +8,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 // Ganti path gambar sesuai file di assets/developt
 import dev1 from "../assets/developt/dip.jpg";
 import dev2 from "../assets/developt/sakifa.jpg";
-import dev3 from "../assets/developt/ALE.jpg";
+import dev3 from "../assets/developt/foto_ale.jpg";
 import dev4 from "../assets/developt/amel.jpg";
 import dev5 from "../assets/developt/wawa.jpeg";
 import dev6 from "../assets/developt/ayumi.jpg";
