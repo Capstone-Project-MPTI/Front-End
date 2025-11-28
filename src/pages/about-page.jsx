@@ -1,19 +1,17 @@
-import React from "react";
-import "../styles/about.css";
 import image from "../assets/image/Hand-coding-amico.svg";
 import imageKolaborasi from "../assets/kolaborasi/kolaborasi.png";
+import "../styles/about.css";
 
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 // Ganti path gambar sesuai file di assets/developt
-import dev1 from "../assets/developt/dip.jpg";
-import dev2 from "../assets/developt/sakifa.jpg";
-import dev3 from "../assets/developt/foto_ale.jpg";
-import dev4 from "../assets/developt/amel.jpg";
-import dev5 from "../assets/developt/wawa.jpeg";
-import dev6 from "../assets/developt/ayumi.jpg";
 import dev7 from "../assets/developt/aulia.jpg";
+import dev6 from "../assets/developt/ayumi.jpg";
+import dev1 from "../assets/developt/dip.jpg";
+import dev3 from "../assets/developt/foto_ale.jpg";
+import dev4 from "../assets/developt/foto_amel.jpg";
 import dev8 from "../assets/developt/logodkh.png"; // Path untuk anggota baru (ganti jika berbeda)
+import dev2 from "../assets/developt/sakifa.jpg";
+import dev5 from "../assets/developt/wawa.jpeg";
 
 const teamMembers = [
   { name: "Dinas Lingkungan Hidup Kota Medan", role: "Mitra Capstone Project", university: "", image: dev8 }, // Anggota baru
